@@ -1,0 +1,31 @@
+.DropArea-top {
+  width: 100%;
+  height: 5px;
+}
+
+
+
+.DropArea-bottom {
+  width: 100%;
+  height: 5px;
+  
+}
+
+.DropArea-left {
+  width: 5px;
+  align-items: stretch;
+
+}
+
+.DropArea-right {
+  width: 5px;
+  align-items: stretch;
+
+}
+
+.DropArea-drag-hover {
+  /* TODO set proper colors */
+  background-color: greenyellow;
+  opacity: 0.5;
+
+}

@@ -1,0 +1,36 @@
+.DragabbleContainer {
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+.DragabbleContainer:hover {
+  background-color: rgb(252, 252, 252);
+  
+}
+
+.DragabbleContainer-center {
+  display: flex;
+  flex-direction: row;  
+}
+
+
+.DragabbleContainer-body {
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 auto;
+}
+
+.DragabbleContainer-content {
+  flex: 1 0 auto;
+  padding: 5px;
+}
+
+.DragabbleContainer-dragging {
+  opacity: 0.3;
+}
+
+
+.DragabbleContainer-handle {
+  padding: 5px;
+  cursor: move;
+}
